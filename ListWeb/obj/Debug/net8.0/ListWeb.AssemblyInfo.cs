@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ListWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a7e3db61484ac8f32e3847d44a17f9959dcb207c")]
 [assembly: System.Reflection.AssemblyProductAttribute("ListWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ListWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
