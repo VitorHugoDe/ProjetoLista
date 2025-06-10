@@ -18,13 +18,13 @@
 
         public bool TemCategoria => CategoriaId.ToLower() != "todos";
         public bool TemVencimento => Vencimento.ToLower() != "todos";
-        public bool Temstatus => StatusId.ToLower() != "todos";
+        public bool TemStatus => StatusId.ToLower() != "todos";
 
         public static Dictionary<string, string> VencimentoValoresFiltro =>
             new Dictionary<string, string>
             {
                 {"futuro", "Futuro"},
-                {"passado", "Passadp"},
+                {"passado", "Passado"},
                 {"hoje", "Hoje"}
             };
 
