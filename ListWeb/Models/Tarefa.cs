@@ -12,7 +12,7 @@ namespace ListWeb.Models
         [Required(ErrorMessage = "Preencha a Data de vencimento!")]
         public DateTime? DataVencimento { get; set; }
         [Required(ErrorMessage = "Selecione uma categoria!")]
-        public string CatergoriaId { get; set; }
+        public string CategoriaId { get; set; }
         [ValidateNever]
         public Categoria Categoria { get; set; }
         [Required(ErrorMessage = "Selecione um status!")]
